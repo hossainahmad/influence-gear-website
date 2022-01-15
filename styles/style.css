@@ -84,12 +84,106 @@ p{
 .company-logo{
     display: flex;
     justify-content: center;
-  
-}
-.logos{
-    border-top: 1px solid linear-gradient(90deg, rgba(192, 204, 218, 0.1) 0%, rgba(192, 204, 218, 0.6) 50.38%, rgba(192, 204, 218, 0.1) 100%);
-}
-.logos img{
-    margin-right: 61px;
 }
 
+.logos img{
+    margin-right: 61px;
+    padding: 36px 0;
+}
+hr{
+    border-top: 1px solid rgb(197, 197, 197);
+    width: 1110px;
+}
+hr{
+    border-bottom: 1px solid rgba(199, 199, 199, 0.05);
+    width: 1110px;
+    opacity: 0.8;
+}
+
+/* Popular Products Collections Styles */
+.products-heading{
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+.products-heading{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.all-products{
+    display: flex;
+    justify-content: center;
+}
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 329px);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.product-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+}
+.product-card h2{
+    font-size: 28px;
+
+}
+.product-card h2{
+    font-size: 28px;
+    font-weight: 500;
+}
+.product-card h3{
+    font-size: 24px;
+    font-weight: lighter;
+}
+.fa-star{
+    font-size: 12px;
+    color: orange;
+    margin: 0;
+}
+.fa-star-half-alt{
+    font-size: 12px;
+    color: orange;
+}
+.product-card p{
+    font-size: 14px;
+    color: #787885;
+    font-weight: bold;
+}
+small{
+    color: #5E6366;
+}
+.see-more{
+    font-size: 16px;
+    font-weight: bold;
+    color: #E02C6D;
+    text-decoration: none;
+    text-align: right;
+}
+/* Footer Section Style */
+footer{
+    align-items: center;
+    background-color: #0A0826;
+    text-align: center;
+    margin: -8px;
+    padding: 0 10px;
+}
+.footer-text{
+    
+}
+.footer-text h1{
+    font-size: 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.footer-text p{
+    color: #FFFFFF;
+    margin: 10px 0;
+}
+.fab{
+    color: #FFFFFF;
+    font-size: 18px;
+    border-radius: 50%;
+}
